@@ -1,11 +1,10 @@
 fileFormatVersion: 2
-guid: 369e9302089def64ca069b2fc31dd1db
-timeCreated: 1508962513
+guid: 8278986bf3cc8fc439f877e8bf054d21
+timeCreated: 1509377081
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Asteroid1
-    21300002: Asteroid2
+    21300000: ships_asteroids_0
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -77,7 +76,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Asteroid2
+      name: ships_asteroids_0
       rect:
         serializedVersion: 2
         x: 176
@@ -85,7 +84,7 @@ TextureImporter:
         width: 32
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

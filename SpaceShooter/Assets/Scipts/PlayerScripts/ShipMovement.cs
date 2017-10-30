@@ -29,10 +29,11 @@ public class ShipMovement : MonoBehaviour {
 
 		Vector2 pos = transform.position;
 		//offsets
-		max.x = max.x - 0.300f;
-		min.x = min.x + 0.300f;
-		min.y = min.y + 0.85f;
-
+		max.x = max.x - 0.3f;
+		min.x = min.x + 0.3f;
+		min.y = min.y + 0.5f;
+		max.y = max.y - 0.5f;
+		//unscaledDeltaTime because the player moves at normal speed when slow motion is happening
 		pos += direction * speed * Time.unscaledDeltaTime;
 
 		//Stops the ship from goind out of bounds

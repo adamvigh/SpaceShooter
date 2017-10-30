@@ -16,6 +16,7 @@ public class BulletMove : MonoBehaviour {
 		
 	}
 	void Awake(){
+		//setting the point where the bullets are coming from
 		firePoint = GameObject.FindGameObjectWithTag("FirePoint1").transform;
 	}
 	void OnEnable(){
@@ -26,7 +27,8 @@ public class BulletMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		//moving and disableing after reaching maxdistance
+		// I use unscaledDeltaTime here too because the player bullets should always move at normal speed
 		Vector2 position = transform.position;
 		position = new Vector2 (position.x, position.y + speed * Time.unscaledDeltaTime);
 		transform.position = position;

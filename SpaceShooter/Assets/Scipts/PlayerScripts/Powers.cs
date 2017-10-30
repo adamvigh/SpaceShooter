@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Powers : MonoBehaviour {
+
 	public float slowdownLength=10f;
 	public float timeSlowCooldown;
 	public float invincibilityTime=2f;

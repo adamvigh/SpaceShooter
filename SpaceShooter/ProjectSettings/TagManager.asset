@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - FirePoint1
+  - Bullet
+  - Powerup
+  - Shield
+  - Spawner
   layers:
   - Default
   - TransparentFX
@@ -16,9 +20,9 @@ TagManager:
   - 
   - Enemy
   - Player
-  - 
-  - 
-  - 
+  - Pickup
+  - Bullet
+  - Shield
   - 
   - 
   - 
